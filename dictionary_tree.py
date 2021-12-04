@@ -1,7 +1,4 @@
 from typing import List, Optional
-from copy import deepcopy
-import asyncio
-
 
 class DictTreeNode:
     """
@@ -168,7 +165,7 @@ class DictionaryTree:
         return None
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     tree = DictionaryTree()
     tree.add_words(["kill", "dead", "suicide"])
 
